@@ -36,7 +36,7 @@ class _SignUpState extends State<SignUp> {
               height: 30,
             ),
             Text(
-              'Sign In',
+              'Sign Up',
               style: TextStyle(
                   color: kBlueColor,
                   fontSize: 33,
@@ -211,7 +211,7 @@ class _SignUpState extends State<SignUp> {
                     child: Row(
                       children: [
                         Text(
-                          'Sign In',
+                          'Sign Up',
                           style: TextStyle(
                             fontFamily: 'Manrope-ExtraBold',
                             // fontWeight: FontWeight.bold,
