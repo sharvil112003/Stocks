@@ -1,4 +1,4 @@
-import 'package:flutter/gestures.dart';
+// import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:stocks/constants.dart';
 import 'package:stocks/signup.dart';
@@ -252,7 +252,7 @@ class _LoginState extends State<Login> {
                     child: Text(
                       'SignUp',
                       style: TextStyle(
-                          fontFamily: 'Manrope',
+                          fontFamily: 'Manrope-ExtraBold',
                           color: Colors.indigo,
                           fontWeight: FontWeight.bold),
                     ))

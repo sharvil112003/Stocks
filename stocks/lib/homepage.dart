@@ -8,9 +8,17 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
-        body: Text('Hii Guyss Logged in Sucessfully.'),
+        backgroundColor: Color(0xFF222831),
+        body: Column(
+          children: [
+            TextField(
+              keyboardType: TextInputType.text,
+              decoration: InputDecoration(),
+            )
+          ],
+        ),
       ),
     );
   }
